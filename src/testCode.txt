@@ -1,9 +1,0 @@
-     public static void tester() {
-        TicTacToeBoard board = new TicTacToeBoard();
-        board.initializeBoard();
-        board.printBoard();
-        board.setBoard(1,1,'X');
-        board.printBoard();
-        System.out.println("\nTile at location 1, 1: " + board.getBoard(1,1));
-        System.out.println("Tile at location 1, 2: " + board.getBoard(1,2));
-    }
